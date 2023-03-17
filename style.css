@@ -1,0 +1,10 @@
+/* Estilo para el primer elemento de cada lista */
+ul li:first-of-type,
+ol li:first-of-type {
+  color: red;
+}
+
+/* Estilo para el primer elemento de la primera lista */
+ul:first-of-type li:first-of-type {
+  font-size: 2rem;
+}
