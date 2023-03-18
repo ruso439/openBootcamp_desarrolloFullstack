@@ -1,0 +1,55 @@
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.barra-lateral {
+  background-color: lightgray;
+  padding: 20px;
+  width: 25%;
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.navegacion a {
+  margin-bottom: 10px;
+}
+
+.seccion-principal {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+  .contenedor {
+    flex-direction: column;
+  }
+
+  .barra-lateral {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .navegacion {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navegacion a {
+    margin-right: 10px;
+  }
+
+  .seccion-principal {
+    margin-top: 70px;
+  }
+}
