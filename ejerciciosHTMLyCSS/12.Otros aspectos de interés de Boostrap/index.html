@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Elementos de Interés en Bootstrap</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <!-- Primera sección -->
+        <div class="jumbotron">
+          <h1 class="display-4">Bienvenidos</h1>
+          <p class="lead">Este es un Jumbotron creado con Bootstrap 4.</p>
+          <hr class="my-4">
+          <p>Utiliza los botones para navegar por el sitio.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Llama a la accion</a>
+          </p>
+        </div>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Segunda sección -->
+        <div class="container">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Telefono</label>
+              <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Escribe tu telefono">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+    
+        <!-- Tercera sección -->
+        <div class="card my-3">
+           <div class="card-body">
+                <h5 class="card-title">Tu nombre</h5>
+                <p class="card-text">Breve descripcion</p>
+            </div>
+            <div class="card-footer">
+                <a href="ruso439@gmail.com">ruso439@gmail.com</a>
+            </div>
+        </div>
+    </body>
+</html>
+
+

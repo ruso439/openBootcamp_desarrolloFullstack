@@ -1,0 +1,17 @@
+.jumbotron {
+    background-color: #f0ad4e;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .form-control:focus {
+    border-color: #f0ad4e;
+    box-shadow: 0 0 0 0.2rem rgba(240, 173, 78, 0.25);
+  }
+  
+  .card {
+    width: 18rem;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  
